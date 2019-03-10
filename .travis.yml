@@ -1,11 +1,15 @@
 os: linux
+
 language: android
 jdk: oraclejdk8
 android:
   components:
     - build-tools-27.0.3
     - android-27
+dist: xenial
 before_install:
+  - echo $(ant --version)
+  - apt install ant -y
   - yes | sdkmanager "platforms;android-27"
   - yes | sdkmanager "build-tools;27.0.3"
   - nvm install 11.9.0
