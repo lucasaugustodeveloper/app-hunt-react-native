@@ -19,5 +19,6 @@ matrix:
       - gem install bundler
       - bundle install
     install:
+      - ant deps
       - nvm install 11.9.0
       - yarn install --ignore-engines
