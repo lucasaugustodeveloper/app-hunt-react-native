@@ -10,7 +10,7 @@
     "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.3",
     "react": "16.6.3",
     "react-native": "0.64.0",
     "react-navigation": "3.0.0",
