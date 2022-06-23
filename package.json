@@ -12,9 +12,9 @@
   "dependencies": {
     "axios": "^0.21.1",
     "react": "16.6.3",
-    "react-native": "0.64.0",
+    "react-native": "0.69.0",
     "react-navigation": "3.0.0",
-    "snyk": "^1.521.0"
+    "snyk": "^1.680.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
