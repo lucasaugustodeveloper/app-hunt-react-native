@@ -6,7 +6,7 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "lint": "eslint src/*.js src/**/*.js",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
@@ -14,7 +14,7 @@
     "react": "16.6.3",
     "react-native": "0.64.0",
     "react-navigation": "3.0.0",
-    "snyk": "^1.521.0"
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
